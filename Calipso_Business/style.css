@@ -1,0 +1,33 @@
+/*------------ common designs --------------------*/
+.homepage-bg {
+    background-color: #0D0D23;
+    color: white;
+}
+
+/*--------------- comming-soon page design -------------- */
+.middle-image{
+    background-image: url('images/3d-light-ball058.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: 95% 50%;
+}
+
+ /*------------------- tab view  ---------------*/
+
+ @media only screen and (min-width: 577px) and (max-width: 990px) {
+    .middle-image{
+        background-position: 75% 50%;
+    }
+ }
+
+
+
+ /*------------------- Mobile view  ---------------*/
+ @media only screen and (max-width: 576px) {
+    .middle-image{
+        background-size: cover;
+        background-position: 71% 50%;
+    }
+ }
