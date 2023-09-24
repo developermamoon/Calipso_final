@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+
+
+
 /*------------ common designs --------------------*/
 .homepage-bg {
     background-color: #0D0D23;
     color: white;
+}
+
+.popinsfont
+{
+    font-family: 'Poppins', sans-serif;
+}
+.robotofont{
+    font-family: 'Roboto', sans-serif;
 }
 
 /*--------------- comming-soon page design -------------- */
@@ -9,16 +24,35 @@
     background-image: url('images/3d-light-ball058.png');
     background-repeat: no-repeat;
     object-fit: cover;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
-    background-position: 95% 50%;
+    background-position: center center;
+    /* background-position: center center; */
 }
+
+/*---------------- .login page design ---------------- */
+
+    .login-box{
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .login-box .login1{
+        background-color: #6827D6;
+        color: white !important;
+        border: 0;
+    }
+    
+    .login1:focus{
+        background-color: #6827D6;
+    }
 
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
     .middle-image{
-        background-position: 75% 50%;
+        /* background-position: 75% 50%; */
     }
  }
 
@@ -28,6 +62,6 @@
  @media only screen and (max-width: 576px) {
     .middle-image{
         background-size: cover;
-        background-position: 71% 50%;
+        /* background-position: 71% 50%; */
     }
  }

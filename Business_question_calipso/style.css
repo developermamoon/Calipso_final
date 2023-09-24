@@ -1,0 +1,23 @@
+
+*{
+    overflow: hidden;
+}
+
+/*------------ common designs --------------------*/
+.left-side {
+    background-color: #0D0D23;
+    color: white;
+}
+.left-side2{
+    background-image: url(images/Bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo img{
+    width: 40%;
+}
+.text-part-leftside h1{
+    font-size: 50px;
+    margin-top: 120px;
+}
