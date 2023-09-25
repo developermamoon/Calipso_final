@@ -75,6 +75,10 @@
     width: 55%;
 }
 
+.q2-submit-button{
+    width: 100%;
+}
+
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
