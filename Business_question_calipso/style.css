@@ -1,28 +1,39 @@
 @font-face {
-    font-family: tahoma;
+    font-family: tohoma;
     src: url(fonts/Tahoma\ Regular\ font.ttf);
+}
+@font-face {
+    font-family: tahoma-bold;
+    src: url(fonts/TAHOMABD.TTF);
+}
+
+body{
+    /* height: 100%; */
+    /* width: 100%; */
 }
 
 *{
-    font-family: tahoma;
-    margin: 0;
-    overflow: hidden;
+    font-family: tohoma;
+    /* margin: 0; */
+    /* overflow: hidden; */
     box-sizing: border-box;
-    padding: 0;
+    /* padding: 0; */
+    /* height: 100%; */
 }
+
 
 /*------------ common designs --------------------*/
 .left-side {
     background-color: #0D0D23;
     color: white;
-    /* padding-bottom: 150px; */
+    padding-bottom: 120px;
 }
 .left-side2{
     background-image: url(images/Bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    /* height: 100vh; */
     /* overflow: hidden; */
 }
 .logo img{
@@ -43,6 +54,24 @@
 
 .contact-text-leftside p{
     font-size: 15px;
+}
+
+.color-text{
+        background-color: #f3ec78;
+            background-image: linear-gradient(-90deg, #FF9A5D, #FB0094, #7D00DD);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+}
+
+.color-button{
+    background-image: linear-gradient(-90deg, #FF9A5D, #FB0094, #7D00DD);
+}
+
+.right-side-bold-text{
+    font-family: tahoma-bold;
 }
 
  /*------------------- tab view  ---------------*/
