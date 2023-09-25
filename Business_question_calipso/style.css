@@ -110,4 +110,9 @@
     .left-side {
         padding-bottom: 50px;
     }
+    .q-btn{
+        /* display: inline-block; */
+        width: 100%;
+        margin-bottom: 10px;
+    }
  }
