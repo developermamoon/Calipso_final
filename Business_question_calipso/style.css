@@ -1,23 +1,65 @@
+@font-face {
+    font-family: tahoma;
+    src: url(fonts/Tahoma\ Regular\ font.ttf);
+}
 
 *{
+    font-family: tahoma;
+    margin: 0;
     overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 /*------------ common designs --------------------*/
 .left-side {
     background-color: #0D0D23;
     color: white;
+    /* padding-bottom: 150px; */
 }
 .left-side2{
     background-image: url(images/Bg.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
+    /* overflow: hidden; */
 }
 .logo img{
     width: 40%;
 }
 .text-part-leftside h1{
     font-size: 50px;
-    margin-top: 120px;
+    margin-top: 100px;
 }
+
+.contact-text-leftside{
+
+}
+
+.contact-text-leftside h3{
+    font-size: 17px;
+}
+
+.contact-text-leftside p{
+    font-size: 15px;
+}
+
+ /*------------------- tab view  ---------------*/
+
+ @media only screen and (min-width: 577px) and (max-width: 990px) {
+.text-part-leftside h1 {
+        font-size: 25px;
+        /* margin-top: 120px; */
+    }
+ }
+
+
+
+ /*------------------- Mobile view  ---------------*/
+ @media only screen and (max-width: 576px) {
+    .text-part-leftside h1 {
+        font-size: 30px;
+        /* margin-top: 120px; */
+    }
+ }
