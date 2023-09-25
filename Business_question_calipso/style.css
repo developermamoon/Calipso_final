@@ -84,6 +84,10 @@
     width: 100%;
 }
 
+.q3-submit-button{
+    width: 100%;
+}
+
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
@@ -97,6 +101,15 @@
     
         .left-side{
             padding-bottom: 80px;
+        }
+
+        .q3-buttons button {
+            width: auto;
+            font-size: 14px;
+        }
+
+        .q3-submit-button {
+            width: 100% !important;
         }
  }
 
@@ -120,4 +133,12 @@
         width: 100%;
         margin-bottom: 10px;
     }
+
+    .q3-buttons button {
+        width: auto;
+        font-size: 14px;
+    }
+        .q3-submit-button {
+            width: 100% !important;
+        }
  }
