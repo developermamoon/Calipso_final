@@ -29,11 +29,16 @@
     color: white;
 }
 
+.verify-email .email1{
+    background-color: #6827D6;
+}
+
 .verify-email .email1 [type='email']{
     background-color: #6827D6;
     border: 0;
     color: white;
 }
+
 input[type='password']{
     color: black !important;
 }
@@ -91,9 +96,12 @@ input[type="password"]::-webkit-input-placeholder {
     padding: 100px 0;
 }
 
-.middle-part-entry2 p{
-    margin: 0;
-    
+.middle-part-step1{
+    padding: 30px 0;
+}
+
+.middle-part-entry2, .middle-part-step1 p{
+    margin: 0; 
 }
 
 .verify-email{
@@ -128,5 +136,9 @@ input[type="password"]::-webkit-input-placeholder {
 
     .verify-email {
         width: 80%;
+    }
+
+    .verify-email .random-button{
+        font-size: 12px;
     }
  }
