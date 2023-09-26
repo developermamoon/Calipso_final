@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------------------------------------------------- login page design  */
+.bg-image{
+    background-image: url(images/Bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.logo1 img{
+    width: 60%;
+}
+
+input[type='email']{
+    background-color: #6827D6;
+    border: 0;
+    color: white;
+}
+input[type='password']{
+    color: black !important;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+    color: white;
+}
+
+input[type="password"]::-webkit-input-placeholder {
+    color: black;
+}
+
+input[type="email"]:focus {
+    color: white;
+    background-color: #6827D6;
+}
+
+.login1buttons{
+    background-color: #6827D6 !important;
+    font-weight: 500 !important;
+}
+
+
+.login1link{
+    text-decoration: none;
+    color: #544CF9;
+}
+
+
+/*--------------------------------------------------- page design  */
+
+
+ /*------------------- tab view  ---------------*/
+
+ @media only screen and (min-width: 577px) and (max-width: 990px) {
+    
+ }
+
+
+
+ /*------------------- Mobile view  ---------------*/
+ @media only screen and (max-width: 576px) {
+    .login1buttons {
+            width: 100% !important;
+            font-size: 14px !important;
+        }
+ }
