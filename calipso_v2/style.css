@@ -29,25 +29,11 @@
     color: white;
 }
 
-.verify-email .email1{
-    background-color: #6827D6;
-}
-
-.verify-email .email1 [type='email']{
-    background-color: #6827D6;
-    border: 0;
-    color: white;
-}
-
 input[type='password']{
     color: black !important;
 }
 
 .login input[type="email"]::-webkit-input-placeholder {
-    color: white;
-}
-
-.verify-email .email1 input[type="email"]::-webkit-input-placeholder {
     color: white;
 }
 
@@ -60,10 +46,6 @@ input[type="password"]::-webkit-input-placeholder {
     background-color: #6827D6;
 }
 
-.verify-email .email1 input[type="email"]:focus {
-    color: white;
-    background-color: #6827D6;
-}
 
 .login1buttons{
     background-color: #6827D6 !important;
@@ -78,6 +60,9 @@ input[type="password"]::-webkit-input-placeholder {
 
 
 /*---------------------------------------------------info entry page design  */
+
+
+/*------------------------------------------------ info entry 2  --------------*/
 
 .white-bg{
     background-image: url(images/bg2.jpg);
@@ -96,23 +81,61 @@ input[type="password"]::-webkit-input-placeholder {
     padding: 100px 0;
 }
 
-.middle-part-step1{
-    padding: 30px 0;
+.middle-part-entry2 p {
+    margin: 0;
 }
 
-.middle-part-entry2, .middle-part-step1 p{
-    margin: 0; 
-}
-
+/*------------------ info entry 1 -------------- */
 .verify-email{
     width: 50%;
 }
 
+.verify-email .email1 input[type="email"]::-webkit-input-placeholder {
+    color: white;
+}
+
+.verify-email .email1 input[type="email"]:focus {
+    color: white;
+    background-color: #6827D6;
+}
+
+.verify-email .email1 [type='email'] {
+    background-color: #6827D6;
+    border: 0;
+    color: white;
+}
+
+/*--------------------------------- step 1  --------------*/
+.middle-part-step1{
+    padding: 30px 0;
+}
+
+.middle-part-step1 p{
+    margin: 0; 
+}
+
+.verify-password{
+    width: 50%;
+}
+
+.verify-password .email1 {
+    background-color: #6827D6;
+}
+
+.verify-password .email1 input[type="email"]::-webkit-input-placeholder {
+    color: white;
+}
+
+.verify-password .email1 [type='email'] {
+    background-color: #6827D6;
+    border: 0;
+    color: white;
+}
 
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
-    .verify-email {
+    .verify-email, .verify-password {
             width: 70%;
         }
  }
@@ -134,11 +157,11 @@ input[type="password"]::-webkit-input-placeholder {
         width: 70%;
     }
 
-    .verify-email {
+    .verify-email, .verify-password {
         width: 80%;
     }
 
-    .verify-email .random-button{
+    .verify-password .random-button{
         font-size: 12px;
     }
  }
