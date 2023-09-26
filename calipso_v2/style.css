@@ -23,7 +23,13 @@
     width: 60%;
 }
 
-input[type='email']{
+.login input[type='email']{
+    background-color: #6827D6;
+    border: 0;
+    color: white;
+}
+
+.verify-email .email1 [type='email']{
     background-color: #6827D6;
     border: 0;
     color: white;
@@ -32,7 +38,11 @@ input[type='password']{
     color: black !important;
 }
 
-input[type="email"]::-webkit-input-placeholder {
+.login input[type="email"]::-webkit-input-placeholder {
+    color: white;
+}
+
+.verify-email .email1 input[type="email"]::-webkit-input-placeholder {
     color: white;
 }
 
@@ -40,7 +50,12 @@ input[type="password"]::-webkit-input-placeholder {
     color: black;
 }
 
-input[type="email"]:focus {
+.login input[type="email"]:focus {
+    color: white;
+    background-color: #6827D6;
+}
+
+.verify-email .email1 input[type="email"]:focus {
     color: white;
     background-color: #6827D6;
 }
@@ -81,11 +96,17 @@ input[type="email"]:focus {
     
 }
 
+.verify-email{
+    width: 50%;
+}
+
 
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
-    
+    .verify-email {
+            width: 70%;
+        }
  }
 
 
@@ -103,5 +124,9 @@ input[type="email"]:focus {
 
     .box3{
         width: 70%;
+    }
+
+    .verify-email {
+        width: 80%;
     }
  }
