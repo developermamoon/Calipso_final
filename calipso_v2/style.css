@@ -69,7 +69,7 @@ input[type="email"]:focus {
 .box3{
     background-color: #6827D6;
     color: white;
-    width: 50%;
+    width: 60%;
 }
 
 .middle-part-entry2{
@@ -96,4 +96,12 @@ input[type="email"]:focus {
             width: 100% !important;
             font-size: 14px !important;
         }
+
+    .middle-part-entry2 {
+        padding: 50px 0;
+    }
+
+    .box3{
+        width: 70%;
+    }
  }
