@@ -205,6 +205,38 @@ input[type="password"]::-webkit-input-placeholder {
 
 /*--------------------- info-entry-1-2  --------------------*/
 
+.radio-button-box{
+    width: 100%;
+    border-radius: 40px;
+    /* display: inline-block; */
+    /* background-color: #6827D6; */
+}
+
+.radio-button-box:hover{
+    background-color: #6827D6;
+    /* width: 100%; */
+    transform: translateX(-60px);
+    cursor: pointer;
+}
+
+.modified-label-1:hover {
+    background-color: #6827D6;
+    /* width: 100%; */
+    cursor: pointer;
+}
+
+.radio-button-box p{
+    margin: 0;
+}
+
+.white-radio-button{
+    /* width: 40%; */
+    /* height: 40%; */
+}
+
+input[type='radio']{
+    display: none;
+}
 
  /*------------------- tab view  ---------------*/
 
