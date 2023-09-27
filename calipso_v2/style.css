@@ -84,10 +84,12 @@ input[type="password"]::-webkit-input-placeholder {
     background-color: #6827D6;
     color: white;
     width: 60%;
+    box-shadow: 5px 5px 10px grey;
 }
 
 .middle-part-entry2{
     padding: 100px 0;
+    
 }
 
 .middle-part-entry2 p {
@@ -112,6 +114,15 @@ input[type="password"]::-webkit-input-placeholder {
     background-color: #6827D6;
     border: 0;
     color: white;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.verify-email [type='email'] {
+    box-shadow: 5px 5px 10px grey;
+}
+
+.verify-email button[type='submit'] {
+    box-shadow: 5px 5px 10px grey;
 }
 
 /*--------------------------------- step 1  --------------*/
@@ -129,6 +140,7 @@ input[type="password"]::-webkit-input-placeholder {
 
 .verify-password .email1 {
     background-color: #6827D6;
+    /* box-shadow: 5px 5px 20px grey; */
 }
 
 .verify-password .email1 input[type="email"]::-webkit-input-placeholder {
@@ -139,6 +151,14 @@ input[type="password"]::-webkit-input-placeholder {
     background-color: #6827D6;
     border: 0;
     color: white;
+}
+
+.verify-password [type='password'] {
+    box-shadow: 5px 5px 10px grey;
+}
+
+.verify-password button[type='submit']{
+    box-shadow: 5px 5px 10px grey;
 }
 
 /*--------------------------------- loading */
@@ -154,6 +174,9 @@ input[type="password"]::-webkit-input-placeholder {
     width: 50px;
     height: 100px;
 }
+
+/*--------------------- info-entry-1-1  --------------------*/
+
 
  /*------------------- tab view  ---------------*/
 
