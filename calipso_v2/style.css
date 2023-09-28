@@ -186,6 +186,7 @@ input[type="password"]::-webkit-input-placeholder {
     border-left: 2px solid #848484;
     /* background-color: #848484; */
     margin: 10px 30px;
+    visibility: hidden;
 }
 
 .round {
