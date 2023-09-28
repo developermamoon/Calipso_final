@@ -213,12 +213,14 @@ input[type="password"]::-webkit-input-placeholder {
     transition-duration: 1s;   
     color: white;
     padding: 10px 0;
+    width: 100%;
 }
 
 input[type="radio"]:checked+label.radio-button-box{
     
     translate: -30px;
     background-color: red;
+    width: 100%;
     
 }
 
@@ -227,6 +229,7 @@ input[type="radio"]:checked+label.modified-label-1{
     border-radius: 40px;
     color: white;
     translate: -40px;
+    width: 100%;
 }
 
 .radio-button-box p{
