@@ -18,14 +18,15 @@
 .left-side {
     background-color: #0D0D23;
     color: white;
-    padding-bottom: 125px;
 }
+
+
 .left-side2{
     background-image: url(images/Bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* height: 100vh; */
+    height: 100vh;
     /* overflow: hidden; */
 }
 .logo img{
@@ -98,6 +99,11 @@
         }
     
         .left-side{
+            /* padding-bottom: 80px; */
+            height: 100vh;
+        }
+
+        .onboarding-3 .left-side {
             padding-bottom: 80px;
         }
 
@@ -125,6 +131,10 @@
 
     .left-side {
         padding-bottom: 50px;
+    }
+
+    .left-side2{
+        height: auto;
     }
     .q-btn{
         /* display: inline-block; */
