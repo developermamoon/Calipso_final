@@ -369,9 +369,12 @@ input[type="checkbox"]:checked + label {
     text-align: center;
 }
 
-.dotted-boxes{}
-.dotted-boxes p{
+.right-side p{
     margin: 0;
+}
+
+.history-part img{
+    width: 40%;
 }
 
 
