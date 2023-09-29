@@ -2,25 +2,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 
+.popinsfont {
+    font-family: 'Poppins', sans-serif;
+}
+
+.robotofont {
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
-/*------------ common designs --------------------*/
+
+
+/*------------------------------------------------------- login page design  */
+.bg-image {
+    background-image: url(images/Bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-middle {
+    height: 100vh;
+}
+
+
+.logo1 img {
+    width: 60%;
+}
+
+
+.login input[type='email'] {
+    background-color: #6827D6;
+    border: 0;
+    color: white;
+}
+
+input[type='password'] {
+    color: black !important;
+}
+
+.login input[type="email"]::-webkit-input-placeholder {
+    color: white;
+}
+
+input[type="password"]::-webkit-input-placeholder {
+    color: black;
+}
+
+.login input[type="email"]:focus {
+    color: white;
+    background-color: #6827D6;
+}
+
+
+.login1buttons {
+    background-color: #6827D6 !important;
+    font-weight: 500 !important;
+}
+
+
+.login1link {
+    text-decoration: none;
+    color: #544CF9;
+}
+
+
+
+
+
+/*--------------- comming-soon page design -------------- */
 .homepage-bg {
     background-color: #0D0D23;
     color: white;
 }
 
-.popinsfont
-{
-    font-family: 'Poppins', sans-serif;
-}
-.robotofont{
-    font-family: 'Roboto', sans-serif;
-}
 
-/*--------------- comming-soon page design -------------- */
-.middle-image{
+.middle-image {
     background-image: url('images/3d-light-ball058.png');
     background-repeat: no-repeat;
     object-fit: cover;
@@ -31,28 +89,128 @@
     /* background-position: center center; */
 }
 
-/*---------------- .login page design ---------------- */
 
-    .login-box{
-        margin: 0 auto;
-        width: 40%;
-    }
+/*--------------------------------- register page  --------------*/
+.middle-part-step1 {
+    padding: 28px 0;
+}
 
-    .login-box .login1{
-        background-color: #6827D6;
-        color: white !important;
-        border: 0;
-    }
-    
-    .login1:focus{
-        background-color: #6827D6;
-    }
+.middle-part-step1 p {
+    margin: 0;
+}
+
+.verify-password {
+    width: 50%;
+}
+
+.verify-password .email1 {
+    background-color: #6827D6;
+    /* box-shadow: 5px 5px 20px grey; */
+}
+
+.verify-password .email1 input[type="email"]::-webkit-input-placeholder {
+    color: white;
+}
+
+.verify-password .email1 [type='email'] {
+    background-color: #6827D6;
+    border: 0;
+    color: white;
+}
+
+.verify-password [type='password'] {
+    box-shadow: 5px 5px 10px grey;
+}
+
+.verify-password button[type='submit'] {
+    box-shadow: 5px 5px 10px grey;
+}
+
+.step-1-bg {
+    height: 100vh;
+}
+
+/*------------------------------------------------ info entry 2  --------------*/
+
+.white-bg {
+    background-image: url(images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box3 {
+    background-color: #6827D6;
+    color: white;
+    width: 60%;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.middle-part-entry2 {
+    padding: 100px 0;
+
+}
+
+.middle-part-entry2 p {
+    margin: 0;
+}
+
+.info-entry-2 {
+    height: 100vh;
+}
+
+/*------------------ info entry 1 -------------- */
+.verify-email {
+    width: 50%;
+}
+
+.verify-email .email1 input[type="email"]::-webkit-input-placeholder {
+    color: white;
+}
+
+.verify-email .email1 input[type="email"]:focus {
+    color: white;
+    background-color: #6827D6;
+}
+
+.verify-email .email1 [type='email'] {
+    background-color: #6827D6;
+    border: 0;
+    color: white;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.verify-email [type='email'] {
+    box-shadow: 5px 5px 10px grey;
+}
+
+.verify-email button[type='submit'] {
+    box-shadow: 5px 5px 10px grey;
+}
+
+
 
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
-    .middle-image{
-        /* background-position: 75% 50%; */
+    .verify-email, .verify-password {
+        width: 70%;
+    }
+
+    .right-side {
+        margin: 0 auto;
+    }
+
+    .middle-part-entry2 {
+        padding: 70px 0;
+    }
+
+    .info-entry-2 {
+        height: 100vh;
+    }
+
+    .middle-part-step1 {
+        padding: 20px 0;
     }
  }
 
@@ -63,5 +221,47 @@
     .middle-image{
         background-size: cover;
         /* background-position: 71% 50%; */
+    }
+
+    .login1buttons {
+        width: 100% !important;
+        font-size: 14px !important;
+    }
+
+    .login-middle {
+        height: 100%;
+    }
+
+    .middle-part-entry2 {
+        padding: 50px 0;
+    }
+
+    .box3 {
+        width: 70%;
+    }
+
+    .verify-email,
+    .verify-password {
+        width: 80%;
+    }
+
+    .verify-password .random-button {
+        font-size: 12px;
+    }
+
+    .info-entry-1 {
+        height: 100vh;
+    }
+
+    .info-entry-2 {
+        height: 100%;
+    }
+
+    .step-1-bg {
+        height: 100%;
+    }
+
+    .middle-part-step1 {
+        padding: 20px 0;
     }
  }
