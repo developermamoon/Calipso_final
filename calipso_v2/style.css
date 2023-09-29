@@ -27,10 +27,15 @@
     background-position: center;
 }
 
+.login-middle{
+    height: 100vh;
+}
+
 
 .logo1 img{
     width: 60%;
 }
+
 
 .login input[type='email']{
     background-color: #6827D6;
@@ -96,6 +101,10 @@ input[type="password"]::-webkit-input-placeholder {
     margin: 0;
 }
 
+.info-entry-2 {
+    height: 100vh;
+}
+
 /*------------------ info entry 1 -------------- */
 .verify-email{
     width: 50%;
@@ -159,6 +168,10 @@ input[type="password"]::-webkit-input-placeholder {
 
 .verify-password button[type='submit']{
     box-shadow: 5px 5px 10px grey;
+}
+
+.step-1-bg{
+    height: 100vh;
 }
 
 /*--------------------------------- loading */
@@ -442,6 +455,15 @@ margin: 0;
     .right-side {
         margin: 0 auto;
     }
+
+    .middle-part-entry2 {
+        padding: 70px 0;
+    }
+
+    .info-entry-2 {
+        height: 100vh;
+    }
+    
  }
 
 
@@ -471,5 +493,24 @@ margin: 0;
         font-size: 12px;
     }
 
+    .login-middle {
+        height: 100%;
+    }
+
+    /* .middle-part-entry2 {
+        padding: 70px 0;
+    } */
+
+    .info-entry-1{
+        height: 100vh;
+    }
+
+    .info-entry-2 {
+        height: 100%;
+    }
+
+    .step-1-bg {
+        height: 100%;
+    }
     
  }
