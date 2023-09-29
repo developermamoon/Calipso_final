@@ -293,7 +293,7 @@ input[type="checkbox"]:checked + label {
 .dashboard-side-menu a div {}
 
 .dashboard-side-menu li {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     font-size: 16px;
 }
 
@@ -369,6 +369,10 @@ input[type="checkbox"]:checked + label {
     text-align: center;
 }
 
+.right-side{
+    margin: 0 auto;
+}
+
 .right-side p{
     margin: 0;
 }
@@ -397,6 +401,34 @@ margin: 0;
     background-color: #FFF9F3;
 }
 
+/*---------------------------- copy-keys  -------------------------*/
+.key-box{
+    width: 100%;
+    word-wrap: break-word;
+    /* word-wrap: normal; */
+    overflow: auto;
+    height: 500px;
+    font-size: 21px;
+    border: 1px solid black;
+    scrollbar-gutter: stable both-edges;
+}
+
+.key-box::-webkit-scrollbar {
+    width: 10px;
+    /* Adjust the width to your preference */
+}
+
+.key-box::-webkit-scrollbar-thumb {
+    background-color: #E0E0E0;
+    /* Color of the scrollbar thumb */
+    border-radius: 15px;
+    /* Radius of the scrollbar thumb */
+}
+
+.key-box p{
+    margin: 0;
+}
+
 
  /*------------------- tab view  ---------------*/
 
@@ -404,6 +436,10 @@ margin: 0;
     .verify-email, .verify-password {
             width: 70%;
         }
+    
+    .right-side {
+        margin: 0 auto;
+    }
  }
 
 
