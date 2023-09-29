@@ -382,6 +382,21 @@ input[type="checkbox"]:checked + label {
     height: auto;
 }
 
+.learn-more a{
+    text-decoration: none;
+    color: black;
+}
+
+.companies p{
+font-size: 14px;
+margin: 0;
+}
+
+.company{
+    text-align: center;
+    background-color: #FFF9F3;
+}
+
 
  /*------------------- tab view  ---------------*/
 
