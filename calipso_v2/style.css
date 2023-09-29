@@ -101,13 +101,17 @@ input[type="password"]::-webkit-input-placeholder {
     margin: 0;
 }
 
-.info-entry-2 {
-    height: 100vh;
+.info-entry-2{
+    /* height: 100vh; */
 }
 
 /*------------------ info entry 1 -------------- */
 .verify-email{
     width: 50%;
+}
+
+.info-entry-1 {
+    height: 100vh;
 }
 
 .verify-email .email1 input[type="email"]::-webkit-input-placeholder {
@@ -458,6 +462,10 @@ margin: 0;
 
     .middle-part-entry2 {
         padding: 70px 0;
+    }
+
+    .info-entry-1 {
+        height: 100vh;
     }
 
     .info-entry-2 {
