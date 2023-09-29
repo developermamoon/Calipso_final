@@ -377,6 +377,11 @@ input[type="checkbox"]:checked + label {
     width: 40%;
 }
 
+.search-box img{
+    width: 20px;
+    height: auto;
+}
+
 
  /*------------------- tab view  ---------------*/
 
