@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Info</title>
+    <title>My Info Edit Indentifying Information</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -64,10 +64,10 @@
 
                     <a href="">
                         <li class="px-2 py-3 rounded-5" style="background-color: #273BD6;">
-                        <div class="d-flex align-items-center">
-                            <img class="px-3" src="images/icons/share.png" alt="">
-                            <span>My Info</span>
-                        </div>
+                            <div class="d-flex align-items-center">
+                                <img class="px-3" src="images/icons/share.png" alt="">
+                                <span>My Info</span>
+                            </div>
                         </li>
                     </a>
 
@@ -130,25 +130,65 @@
                 </div>
 
                 <!--------------------------- divs  --------------------->
+
                 
-                <div class="d-flex justify-content-between align-items-center my-info-divs">
-                    <div class="d-flex">
-                    
-                        <div>
-                            <p class="fw-light" style="font-size: 24px; font-weight: 200;">Identifying Information</p>
-                            <div style="border-bottom: 6px solid #43DFDF; border-radius: 10px; width: 60%;">
+
+                <div class="my-info-divs">
+                    <form action="">
+
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <div class="d-flex">
+                        
+                                <div>
+                                    <p class="fw-light" style="font-size: 24px; font-weight: 200;">Identifying Information</p>
+                                    <div style="border-bottom: 6px solid #43DFDF; border-radius: 10px; width: 60%;">
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="d-flex justify-content-end">
+                                <button type="submit"
+                                    class="d-block shadow btn btn-primary border-0 login1buttons rounded-5 mt-4 px-5 py-2">Save</button>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="d-flex justify-content-end">
-                        <button type="submit" class="d-block shadow btn btn-primary border-0 login1buttons rounded-5 mt-4 px-5 py-2">View</button>
-                    </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="popins form-label" style="font-size: 24px; font-weight: lighter;">Name
+                                (First & Last)</label>
+                    
+                            <input type="text" class="form-control popins rounded-5 py-lg-3 px-lg-5" style="font-size: 16px;" name="" id="name"
+                                placeholder="Jacqueline Keller">
+                        </div>
+                    
+                    
+                        <div class="mb-3">
+                            <label for="date" class="popins form-label" style="font-size: 24px; font-weight: lighter;">Date of Birth (DD /MM / YYYY)</label>
+                    
+                            <input type="text" class="form-control popins rounded-5 py-lg-3 px-lg-5" style="font-size: 16px;" name="" id="date" placeholder="03/11/2005">
+                        </div>
+                    
+                    
+                        <div class="mb-3">
+                            <label for="" class="popins form-label" style="font-size: 24px; font-weight: lighter;">Country
+                                of Residence</label>
+                    
+                    
+                            <select class="form-select rounded-5 py-lg-3 px-lg-5" aria-label="Default select example">
+                                <option >United States</option>
+                                <option value="1">Albenia</option>
+                                <option value="2">Bangladesh</option>
+                                <option value="3">Canada</option>
+                            </select>
+                    
+                        </div>
+                    
+                    </form>
                 </div>
 
                 <div class="d-flex justify-content-between align-items-center my-info-divs">
                     <div class="d-flex">
-                    
+
                         <div>
                             <p class="fw-light" style="font-size: 24px; font-weight: 200;">Consumer Information</p>
                             <div style="border-bottom: 6px solid #6E22D0; border-radius: 10px; width: 60%;">
@@ -157,24 +197,12 @@
                     </div>
 
                     <div class="d-flex justify-content-end">
-                        <button type="submit" class="d-block shadow btn btn-primary border-0 login1buttons rounded-5 mt-4 px-5 py-2">View</button>
+                        <button type="submit"
+                            class="d-block shadow btn btn-primary border-0 login1buttons rounded-5 mt-4 px-5 py-2">View</button>
                     </div>
                 </div>
 
-                <div class="d-flex justify-content-between align-items-center my-info-divs">
-                    <div class="d-flex">
-                    
-                        <div>
-                            <p class="fw-light" style="font-size: 24px; font-weight: 200;">Calip File</p>
-                            <div style="border-bottom: 6px solid #6E22D0; border-radius: 10px; width: 100%;">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="d-flex justify-content-end">
-                        <button type="submit" class="d-block shadow btn btn-primary border-0 login1buttons rounded-5 mt-4 px-5 py-2">View</button>
-                    </div>
-                </div>
+                
 
             </div>
 
