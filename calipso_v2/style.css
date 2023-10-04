@@ -546,6 +546,13 @@ margin: 0;
     padding-top: 60px ;
 }
 
+
+/*-------------------------- my info  ------------------*/
+.my-info-divs{
+    width: 60%;
+    margin: 50px 20px;
+}
+
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
@@ -582,13 +589,17 @@ margin: 0;
     }
 
     .new-request-search-box {
-        width: 100%;
+        width: 60%;
     }
 
     .new-request-1 {
         width: 90%;
     }
 
+    .my-info-divs {
+        width: 90%;
+        margin: 50px 20px;
+    }
     
  }
 
@@ -659,4 +670,8 @@ margin: 0;
         width: 90%;
     }
     
+    .my-info-divs {
+        width: 90%;
+        margin: 50px 20px;
+    }
  }
