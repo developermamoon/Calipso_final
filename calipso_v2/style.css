@@ -295,6 +295,10 @@ input[type="password"]::-webkit-input-placeholder {
     width: 100%;
 }
 
+input[type="radio"]+label{
+    color: #77737F;
+}
+
 input[type="radio"]:checked+label.radio-button-box{
     
     translate: -30px;
@@ -302,6 +306,7 @@ input[type="radio"]:checked+label.radio-button-box{
     width: 100%;
     
 }
+
 
 input[type="radio"]:checked+label.modified-label-1{
     background-color: #6827D6;
@@ -543,14 +548,21 @@ margin: 0;
 
 .new-request-1{
     width: 60%;
-    padding-top: 60px ;
+    padding-top: 60px;
 }
+
+
 
 
 /*-------------------------- my info  ------------------*/
 .my-info-divs{
     width: 70%;
     margin: 50px 20px;
+}
+
+/*-------------------- insights  -----------------*/
+.insight {
+    width: 60%;
 }
 
  /*------------------- tab view  ---------------*/
@@ -593,6 +605,10 @@ margin: 0;
     }
 
     .new-request-1 {
+        width: 90%;
+    }
+
+    .insight {
         width: 90%;
     }
 
@@ -667,6 +683,10 @@ margin: 0;
     }
 
     .new-request-1 {
+        width: 90%;
+    }
+
+    .insight {
         width: 90%;
     }
     
