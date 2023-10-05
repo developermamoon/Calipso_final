@@ -161,6 +161,21 @@ input[type="password"]::-webkit-input-placeholder {
     margin: 0;
 }
 
+.white-bg-5 {
+    background-image: url(images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* padding: 10px 0; */
+    /* align-items: ; */
+    margin: 0;
+}
+
 .box3{
     background-color: #6827D6;
     color: white;
@@ -658,6 +673,24 @@ margin: 0;
     margin: 0 auto;
 }
 
+/*------------------------- data wipe 1  -------------------------------*/
+
+.data-wipe-1-right-side {
+    height: 100vh;
+    width: 100%;
+}
+
+.data-wipe-1-texts {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.data-wipe-1-form {
+    width: 90%;
+    margin: 0 auto;
+}
+
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
@@ -726,6 +759,10 @@ margin: 0;
 
     .data-wipe-texts {
         width: 100%;
+    }
+
+    .white-bg-5{
+        height: 100vh;
     }
     
  }
@@ -831,5 +868,9 @@ margin: 0;
 
     .data-wipe-form {
         width: 100%;
+    }
+
+    .white-bg-5 {
+        height: 100vh;
     }
  }
