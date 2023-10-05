@@ -716,6 +716,111 @@ margin: 0;
     /* height: 100vh; */
 }
 
+/*-------------------------------> settings 2 */
+.settings-2 input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.settings-2 label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 60px;
+    height: 30px;
+    background: white;
+    border: 1px solid grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+
+.settings-2 label:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background: #273BD6;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+.settings-2 input:checked+label {
+    background: white;
+}
+
+.settings-2 input:checked+label:after {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+
+.settings-2 label:active:after {
+    width: 30px;
+}
+
+.settings-2 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+
+/*-------------------------------> settings 3 */
+.settings-3 input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.settings-3 label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 60px;
+    height: 30px;
+    background: white;
+    border: 1px solid grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+
+.settings-3 label:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background: black;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+.settings-3 input:checked+label {
+    background: white;
+}
+
+.settings-3 input:checked+label:after {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+
+.settings-3 label:active:after {
+    width: 30px;
+}
+
+.settings-3 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
