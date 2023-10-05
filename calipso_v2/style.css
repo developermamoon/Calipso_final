@@ -640,6 +640,24 @@ margin: 0;
     width: 100%;
 }
 
+/*------------------ data wipe  -------------------------*/
+
+.data-wipe-right-side {
+    height: 100vh;
+    width: 100%;
+}
+
+.data-wipe-texts{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.data-wipe-form{
+    width: 90%;
+    margin: 0 auto;
+}
+
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
@@ -698,6 +716,15 @@ margin: 0;
 
     .insight-1-right-side {
         height: 100%;
+        width: 100%;
+    }
+
+    .data-wipe-right-side{
+        height: 100%;
+        width: 100%;
+    }
+
+    .data-wipe-texts {
         width: 100%;
     }
     
@@ -788,7 +815,21 @@ margin: 0;
         width: 100%;
     }
 
+    .data-wipe-right-side {
+        height: 100%;
+        width: 100%;
+    }
+
+
     .insight-1-right-side textarea{
         font-size: 12px;
+    }
+
+    .data-wipe-texts {
+        width: 100%;
+    }
+
+    .data-wipe-form {
+        width: 100%;
     }
  }
