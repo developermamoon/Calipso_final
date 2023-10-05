@@ -105,13 +105,10 @@ input[type="password"]::-webkit-input-placeholder {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* height: 100vh; */
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* padding: 10px 0; */
-    /* align-items: ; */
     margin: 0;
 }
 
@@ -121,13 +118,10 @@ input[type="password"]::-webkit-input-placeholder {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* height: 100vh; */
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* padding: 10px 0; */
-    /* align-items: ; */
     margin: 0;
 }
 
@@ -137,12 +131,9 @@ input[type="password"]::-webkit-input-placeholder {
     background-repeat: no-repeat;
     background-position: center;
     height: inherit;
-    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* padding: 10px 0; */
-    /* align-items: ; */
     margin: 0;
 }
 
@@ -151,13 +142,9 @@ input[type="password"]::-webkit-input-placeholder {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* height: 100vh; */
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* padding: 10px 0; */
-    /* align-items: ; */
     margin: 0;
 }
 
@@ -167,12 +154,9 @@ input[type="password"]::-webkit-input-placeholder {
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* padding: 10px 0; */
-    /* align-items: ; */
     margin: 0;
 }
 
@@ -183,27 +167,17 @@ input[type="password"]::-webkit-input-placeholder {
     box-shadow: 5px 5px 10px grey;
 }
 
-.middle-part-entry2{
-    /* padding: 100px 0; */
-    
-}
 
 .middle-part-entry2 p {
     margin: 0;
 }
 
-.info-entry-2{
-    /* height: 100vh; */
-}
 
 /*------------------ info entry 1 -------------- */
 .verify-email{
     width: 50%;
 }
 
-.info-entry-1 {
-    /* height: 100vh; */
-}
 
 .verify-email .email1 input[type="email"]::-webkit-input-placeholder {
     color: white;
@@ -265,9 +239,6 @@ input[type="password"]::-webkit-input-placeholder {
     box-shadow: 5px 5px 10px grey;
 }
 
-.step-1-bg{
-    /* height: 100vh; */
-}
 
 /*--------------------------------- loading */
 .black-box{
@@ -416,8 +387,6 @@ input[type="checkbox"]:checked + label {
 /*------------------- dashboard  -----------------*/
 .dashboard-side-menu {
     list-style-type: none;
-    /* font-family: var(--popins); */
-    /* margin-top: 62px; */
 }
 
 .dashboard-side-menu a{
@@ -434,7 +403,6 @@ input[type="checkbox"]:checked + label {
 
 .source-box {
     background-color: #52567F;
-    /* width: 220px; */
 }
 
 
@@ -794,29 +762,6 @@ margin: 0;
         font-size: 12px;
     }
 
-    .login-middle{
-        /* height: 100%; */
-    }
-
-    /* .middle-part-entry2 {
-        padding: 70px 0;
-    } */
-
-    .info-entry-1{
-        /* height: 100vh; */
-    }
-
-    .info-entry-2 {
-        /* height: 100%; */
-    }
-
-    .step-1-bg {
-        /* height: 100%; */
-    }
-
-    .white-bg{
-        /* height: 100%; */
-    }
 
     .white-bg-2 {
         height: 100%;
