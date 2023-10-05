@@ -326,6 +326,28 @@ input[type='radio']{
 }
 
 /*---------------------------- consent  */
+
+
+.terms-description{
+    overflow: auto;
+    height: 600px;
+    scrollbar-gutter: stable both-edges;
+}
+
+.terms-description::-webkit-scrollbar {
+    width: 8px;
+    /* Adjust the width to your preference */
+}
+
+.terms-description::-webkit-scrollbar-thumb {
+    background-color: grey;
+    /* Color of the scrollbar thumb */
+    border-radius: 15px;
+    /* Radius of the scrollbar thumb */
+}
+
+
+
 input[type="checkbox"] {
     display: none;
 }
@@ -565,6 +587,39 @@ margin: 0;
     width: 60%;
 }
 
+.insight-1-width{
+    width: 60% !important;
+}
+
+/*----------------------------- insight1 ----------------------------*/
+.MB{
+    color: #54BCBD;
+    padding: 4px 40px;
+    margin: 15px;
+    background-color: #D8F2D4;
+    border-radius: 15px;
+}
+
+.insight-1-bar {
+    padding: 15px 5px 15px 40px;
+    overflow: auto;
+    height: 300px;
+    /* width: 650px; */
+    scrollbar-gutter: stable both-edges;
+}
+
+.insight-1-bar::-webkit-scrollbar {
+    width: 5px;
+    /* Adjust the width to your preference */
+}
+
+.insight-1-bar::-webkit-scrollbar-thumb {
+    background-color: grey;
+    /* Color of the scrollbar thumb */
+    border-radius: 15px;
+    /* Radius of the scrollbar thumb */
+}
+
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
@@ -615,6 +670,10 @@ margin: 0;
     .my-info-divs {
         width: 90%;
         margin: 50px 20px;
+    }
+
+    .insight-1-width {
+        width: 80% !important;
     }
     
  }
@@ -693,5 +752,9 @@ margin: 0;
     .my-info-divs {
         width: 90%;
         margin: 50px 20px;
+    }
+
+    .insight-1-width {
+        width: 100% !important;
     }
  }
