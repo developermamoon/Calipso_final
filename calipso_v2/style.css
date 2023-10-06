@@ -573,6 +573,27 @@ margin: 0;
 }
 
 
+/*----------------------------- new request 1  ------------------------*/
+
+.new-request-2 {
+    width: 70%;
+    padding-top: 60px;
+}
+
+.new-request-3 {
+    width: 80%;
+    /* padding-bottom: 80px; */
+}
+
+.new-request-1-boxes h5, p{
+    font-weight: lighter;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 85%;
+    left: -3%;
+}
 
 
 /*-------------------------- my info  ------------------*/
@@ -857,7 +878,8 @@ margin: 0;
     }
 
     .new-request-search-box {
-        width: 60%;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .new-request-1 {
@@ -979,5 +1001,9 @@ margin: 0;
 
     .white-bg-5 {
         height: 100vh;
+    }
+
+    .new-request-3{
+        width: 90%;
     }
  }
