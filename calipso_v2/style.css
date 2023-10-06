@@ -562,61 +562,7 @@ margin: 0;
 }
 
 
-/*---------------------- new request ---------------------------*/
-.new-request-search-box{
-    width: 60%;
-}
 
-.new-request-1{
-    width: 60%;
-    padding-top: 60px;
-}
-
-
-
-
-/*----------------------------- new request 1  ------------------------*/
-
-.new-request-2 {
-    width: 70%;
-    padding-top: 60px;
-}
-
-.new-request-3 {
-    width: 80%;
-    /* padding-bottom: 80px; */
-}
-
-.new-request-1-boxes h6, p{
-    font-weight: lighter;
-}
-
-.new-request-1-boxes h6{
-    font-size: 14px;
-}
-
-.right-arrow {
-    position: absolute;
-    top: 85%;
-    left: -3%;
-}
-
-.top-box-1{
-    margin-top: 170px !important;
-}
-.top-box-2{
-    margin-top: 170px !important;
-}
-.top-box-3{
-    margin-top: 170px !important;
-}
-
-.abs1 {
-    position: absolute;
-    width: 90% !important;
-    height: 100%;
-    left: 5%;
-}
 
 
 /*-------------------------- my info  ------------------*/
@@ -865,6 +811,86 @@ margin: 0;
     /* height: 100vh; */
 }
 
+/*---------------------- new request ---------------------------*/
+.new-request-search-box {
+    width: 60%;
+}
+
+
+
+.new-request-1 {
+    width: 60%;
+    padding-top: 60px;
+}
+
+/*----------------------------- new request 1  ------------------------*/
+
+.new-request-2 {
+    width: 70%;
+    padding-top: 60px;
+}
+
+.new-request-3 {
+    width: 80%;
+    /* padding-bottom: 80px; */
+}
+
+.new-request-1-boxes h6,
+p {
+    font-weight: lighter;
+}
+
+.new-request-1-boxes h6 {
+    font-size: 14px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 85%;
+    left: -3%;
+}
+
+.top-box-1 {
+    margin-top: 170px !important;
+}
+
+.top-box-2 {
+    margin-top: 170px !important;
+}
+
+.top-box-3 {
+    margin-top: 170px !important;
+}
+
+.abs1 {
+    position: absolute;
+    width: 90% !important;
+    height: 100%;
+    left: 5%;
+}
+
+/*-------------------------- new request 1 if api available -----------------------*/
+
+.new-request-API-search-box {
+    width: 60%;
+}
+
+.abs2 {
+    position: absolute;
+    width: 90% !important;
+    height: 100%;
+    left: 5%;
+}
+
+.top-box-API-1 {
+    margin-top: 120px !important;
+}
+
+.top-box-API-2 {
+    margin-top: 120px !important;
+}
+
+
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
@@ -902,6 +928,11 @@ margin: 0;
 
     .new-request-search-box {
         width: 80%;
+        margin: 0 auto;
+    }
+
+    .new-request-API-search-box{
+        width: 70%;
         margin: 0 auto;
     }
 
@@ -951,8 +982,23 @@ margin: 0;
     .top-box-3 {
         margin-top: 25px !important;
     }
+
+    .top-box-API-1 {
+        margin-top: 200px !important;
+    }
+
+    .top-box-API-2 {
+        margin-top: 200px !important;
+    }
     
     .abs1 {
+        position: absolute;
+        width: 90% !important;
+        height: 100%;
+        left: 5%;
+    }
+
+    .abs2 {
         position: absolute;
         width: 90% !important;
         height: 100%;
@@ -997,6 +1043,10 @@ margin: 0;
     }
 
     .new-request-search-box {
+        width: 100%;
+    }
+
+    .new-request-API-search-box {
         width: 100%;
     }
 
@@ -1064,5 +1114,28 @@ margin: 0;
         width: 80% !important;
         height: 100%;
         left: 10%;
+    }
+
+    .abs2 {
+        position: absolute;
+        width: 80% !important;
+        height: 100%;
+        left: 10%;
+    }
+
+    .new-request-API-search-box input[type='text'] {
+        font-size: 12px;
+    }
+
+    .new-request-2 {
+        width: 90%;
+    }
+
+    .top-box-API-1 {
+        margin-top: 230px !important;
+    }
+
+    .top-box-API-2 {
+        margin-top: 230px !important;
     }
  }
