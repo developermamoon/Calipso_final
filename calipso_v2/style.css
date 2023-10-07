@@ -901,7 +901,7 @@ p {
 
 /*-------------------------- new request if API available popup -----------------------*/
 
-.white-popup{
+.white-popup1{
     width: 50%;
     position: absolute;
     z-index: 10;
@@ -916,7 +916,7 @@ p {
     width: 60%;
 }
 
-.white-popup input[type='radio']{
+.white-popup1 input[type='radio']{
     display: none;
 }
 
@@ -1039,14 +1039,14 @@ p {
         width: 100%;
     }
 
-    .white-popup {
+    .white-popup1 {
         width: 80%;
-        position: absolute;
+        position: sticky;
         z-index: 10;
         background-color: rgba(255, 255, 255, 0.9);
         border: 1px solid #707070;
         /* opacity: 93%; */
-        top: 200%;
+        top: 30%;
         left: 10%;
     }
  }
@@ -1188,7 +1188,7 @@ p {
         margin-top: 50px !important;
     }
 
-    .white-popup {
+    .white-popup1 {
         width: 80%;
         position: sticky;
         z-index: 10;
