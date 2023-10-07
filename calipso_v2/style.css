@@ -902,7 +902,18 @@ p {
 /*-------------------------- new request if API available popup -----------------------*/
 
 .white-popup{
+    width: 50%;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #707070;
+    /* opacity: 93%; */
+    top: 35%;
+    left: 30%;
+}
 
+.popup1{
+    width: 60%;
 }
 
 .white-popup input[type='radio']{
@@ -1026,6 +1037,17 @@ p {
     }
     .new-request-3-API {
         width: 100%;
+    }
+
+    .white-popup {
+        width: 80%;
+        position: absolute;
+        z-index: 10;
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 1px solid #707070;
+        /* opacity: 93%; */
+        top: 200%;
+        left: 10%;
     }
  }
 
@@ -1164,5 +1186,19 @@ p {
 
     .top-box-API-2 {
         margin-top: 50px !important;
+    }
+
+    .white-popup {
+        width: 80%;
+        position: sticky;
+        z-index: 10;
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 1px solid #707070;
+        /* opacity: 93%; */
+        top: 10%;
+        left: 10%;
+    }
+    .popup1 {
+        width: 80%;
     }
  }

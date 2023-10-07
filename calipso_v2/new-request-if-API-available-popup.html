@@ -111,22 +111,25 @@
 
             <!----------------------------- popup box ----------------------------------->
             <div class="white-popup shadow rounded-4 d-flex justify-content-center">
-                <div>
-                    <p class="fs-4 py-5">Choose your data type</p>
+                <div class="popup1">
+                    <p class="fs-4 py-5 text-center">Choose your data type</p>
                     <form action="">
 
                         <div class="p-3 rounded-5 fw-bold text-center shadow mb-3"
-                            style="background-color: #6827D6; border: 1px solid #00F7D1; color: white;">
+                            style="background-color: #6827D6; border: 1px solid #00F7D1; color: white; cursor: pointer;">
                             <input type="radio" name="popup1" id="radio1">
-                            <label for="radio1">Request a copy of your data</label>
+                            <label for="radio1" style="cursor: pointer;">Request a copy of your data</label>
                         </div>
 
-                        <div class="p-3 bg-white rounded-5 fw-bold text-center shadow">
+                        <div class="p-3 bg-white rounded-5 fw-bold text-center shadow" style="cursor: pointer;">
                             <input type="radio" name="popup1" id="radio1">
-                            <label for="radio1">Request deletion of your data</label>
+                            <label for="radio1" style="cursor: pointer;">Request deletion of your data</label>
                         </div>
 
-                        <button type="submit" class="btn rounded-5 px-5 shadow my-5" style="background-color: #6827D6; color: white;">Confirm</button>
+                        <div class="text-end">
+                            <button type="submit" class="btn rounded-5 px-5 shadow my-5"
+                                style="background-color: #6827D6; color: white;">Confirm</button>
+                        </div>
                     </form>
                 </div>
             </div>
