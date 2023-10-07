@@ -160,6 +160,20 @@ input[type="password"]::-webkit-input-placeholder {
     margin: 0;
 }
 
+.white-bg-6 {
+    background-image: url(images/bg2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* height: 100vh; */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        margin: 0;
+}
+
+
 .box3{
     background-color: #6827D6;
     color: white;
@@ -941,6 +955,22 @@ p {
     display: none;
 }
 
+/*------------------------------ large screen view  ---------------------*/
+ @media only screen and (min-height: 901px) {
+
+.white-bg-6 {
+        background-image: url(images/bg2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        /* height: 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin: 0;
+    }
+ }
 
  /*------------------- tab view  ---------------*/
 
@@ -950,6 +980,10 @@ p {
     }
 
     .white-bg-1{
+        height: 100%;
+    }
+
+    .white-bg-6{
         height: 100%;
     }
 
