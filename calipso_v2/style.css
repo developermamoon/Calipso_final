@@ -296,11 +296,11 @@ input[type="password"]::-webkit-input-placeholder {
     width: 100%;
 }
 
-input[type="radio"]+label{
+.radio-button-box input[type="radio"]+label{
     color: #77737F;
 }
 
-input[type="radio"]:checked+label.radio-button-box{
+.radio-button-box input[type="radio"]:checked+label.radio-button-box{
     
     translate: -30px;
     background-color: red;
@@ -309,7 +309,7 @@ input[type="radio"]:checked+label.radio-button-box{
 }
 
 
-input[type="radio"]:checked+label.modified-label-1{
+.radio-button-box input[type="radio"]:checked+label.modified-label-1{
     background-color: #6827D6;
     border-radius: 40px;
     color: white;
@@ -322,7 +322,7 @@ input[type="radio"]:checked+label.modified-label-1{
 }
 
 
-input[type='radio']{
+.radio-button-box input[type='radio']{
     display: none;
 }
 
@@ -896,6 +896,19 @@ p {
 }
 
 /*-------------------------- new request 1 if there is no created api -----------------------*/
+
+
+
+/*-------------------------- new request if API available popup -----------------------*/
+
+.white-popup{
+
+}
+
+.white-popup input[type='radio']{
+    display: none;
+}
+
 
 
  /*------------------- tab view  ---------------*/

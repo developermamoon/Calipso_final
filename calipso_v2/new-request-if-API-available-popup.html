@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Request If API Available Popup</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body class="white-bg-1">
+    <div class="row m-0">
+
+        <!------------------------------- left-part  ------------------------------------>
+        <div class="col-12 col-md-12 col-lg-2 ps-3" style="background-color: #0D0D23;">
+
+            <div>
+                <div class="py-4">
+                    <a href="">
+                        <img class="img-fluid" src="images/calipso.png" alt="">
+                    </a>
+                </div>
+
+                <ul class="dashboard-side-menu p-0">
+                    <a href="">
+                        <li class="px-4">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <img src="images/icons/menu2.png" alt="">
+                                <span>Ai Cleanup</span>
+                                <span class="popins pt-2" style="font-size: 9px;">New!</span>
+
+                            </div>
+                        </li>
+                    </a>
+
+                    <a href="">
+                        <li class="px-2">
+                            <div class="d-flex align-items-center">
+                                <img class="px-3" src="images/icons/folder.png" alt="">
+                                <span>KEYS</span>
+                            </div>
+                        </li>
+                    </a>
+
+                    <a href="">
+                        <li class="px-2">
+                            <div class="d-flex align-items-center">
+                                <img class="px-3" src="images/icons/desktop.png" alt="">
+                                <span>MY API's</span>
+                            </div>
+                        </li>
+                    </a>
+
+                    <a href="">
+                        <li class="px-2 py-3 rounded-5" style="background-color: #273BD6;">
+                            <div class="d-flex align-items-center">
+                                <img class="px-3" src="images/icons/star.png" alt="">
+                                <span>New Request</span>
+                            </div>
+                        </li>
+                    </a>
+
+                    <a href="">
+                        <li class="d-flex align-items-center">
+                            <img class="px-3" src="images/icons/share.png" alt="">
+                            <span>My Info</span>
+                        </li>
+                    </a>
+
+                    <a href="">
+                        <li class="d-flex align-items-center">
+                            <img class="px-3" src="images/icons/trash.png" alt="">
+                            <span>Data Wipe</span>
+                        </li>
+                    </a>
+
+                    <a href="">
+                        <li class="d-flex align-items-center">
+                            <img class="px-3" src="images/icons/settings 2.png" alt="">
+                            <span>Settings</span>
+                        </li>
+                    </a>
+                </ul>
+
+                <!-- source box -->
+
+                <div class="source-box rounded-4 px-3 py-4 mx-2 mb-4">
+                    <div class="text-center">
+                        <img src="images/icons/upload.png" alt="">
+                        <h5 class="popinsfont text-white py-3">New Source</h5>
+                        <p class="popinsfont text-white" style="font-size: 10px; opacity: 80%;">Don't see the company
+                            you use on the list? Create a
+                            new request to get your data from anywhere.</p>
+
+                        <button class="btn btn-primary px-3 border-0 rounded-5 my-3 fw-bold"
+                            style="background-color: #6827D6;">
+                            Request Source
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- right part --------------------------------------------- -->
+        <div class="col-12 col-md-12 col-lg-10 py-4">
+
+            <!----------------------------- popup box ----------------------------------->
+            <div class="white-popup shadow rounded-4 d-flex justify-content-center">
+                <div>
+                    <p class="fs-4 py-5">Choose your data type</p>
+                    <form action="">
+
+                        <div class="p-3 rounded-5 fw-bold text-center shadow mb-3"
+                            style="background-color: #6827D6; border: 1px solid #00F7D1; color: white;">
+                            <input type="radio" name="popup1" id="radio1">
+                            <label for="radio1">Request a copy of your data</label>
+                        </div>
+
+                        <div class="p-3 bg-white rounded-5 fw-bold text-center shadow">
+                            <input type="radio" name="popup1" id="radio1">
+                            <label for="radio1">Request deletion of your data</label>
+                        </div>
+
+                        <button type="submit" class="btn rounded-5 px-5 shadow my-5" style="background-color: #6827D6; color: white;">Confirm</button>
+                    </form>
+                </div>
+            </div>
+            <!-------------------------------------- search box ------------------------->
+
+            <form action="" class="d-md-flex justify-content-between text-center text-md-start px-md-5 px-1">
+                <div
+                    class="bg-white rounded-5 bg-white d-flex p-1 px-4 justify-content-center align-items-center new-request-API-search-box">
+                    <a href="">
+                        <img class="img-fluid" src="images/icons/search.png" alt="">
+                    </a>
+                    <input type="text" name="" id="" placeholder="Search available data profiles"
+                        class="form-control ms-3 w-100 border-0">
+                </div>
+
+                <button type="submit" class="btn shadow text-white rounded-5 px-4 mt-3 mt-md-0"
+                    style="background-color: #6827D6;">Data Type: Request</button>
+            </form>
+
+            <div class="d-flex justify-content-center">
+                <div class="new-request-2">
+                    <p class="fs-4 fw-light text-center">Choose Data Group</p>
+
+                    <form action="">
+
+                        <div class="mb-3">
+                            <select class="shadow form-select rounded-5 py-lg-3 px-lg-5" style="color: #848484;"
+                                aria-label="Default select example">
+                                <option selected>Watershed</option>
+                                <option value="1">Albenia</option>
+                                <option value="2">Bangladesh</option>
+                                <option value="3">Canada</option>
+                            </select>
+
+                        </div>
+
+                    </form>
+
+
+
+
+                </div>
+            </div>
+
+            <!----------------------- boxes  ----------------------->
+            <div class="row gy-4 pb-4 mb-5 new-request-3-API m-auto" style="position: relative;">
+
+                <div class="bg-white p-4 m-0 rounded-4 abs2">
+                    <p class="m-0 " style="font-size: 20px; font-weight: 400;">Data Group: Partners</p>
+                    <p style="color: #8B83AD;">Partners are companies that have chosen to specifically provide data for
+                        your Calipso AI. These companies have provided
+                        your data so you can have real control.</p>
+
+                </div>
+                <!-------------------- box 1  --------------------->
+
+                <div class="col-12 col-md-5 top-box-API-1">
+
+                    <!------------------------------- box Left side 1 ------------------------------------>
+                    <div class="bg-white new-request-API-boxes rounded-3 shadow px-3 py-1" style="position: relative;">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div style="width: 100%; padding: 3px;">
+                                <p class="text-center">Data Reach</p>
+
+                                <div class="d-flex justify-content-evenly text-center">
+                                    <div class="px-2">
+                                        <h5 class="fw-bold m-0">1999</h5>
+                                        <p style="color: #9E9E9E; font-size: 12px;">Founded</p>
+                                    </div>
+                                    <div class="px-2">
+                                        <h5 class="fw-bold m-0">2.8g</h5>
+                                        <p style="color: #9E9E9E; font-size: 12px;">Data per user</p>
+                                    </div>
+                                    <div class="px-2">
+                                        <h5 class="fw-bold m-0">45.7b</h5>
+                                        <p style="color: #9E9E9E; font-size: 12px;">Market Share</p>
+                                    </div>
+                                    <div class="px-2">
+                                        <h5 class="fw-bold m-0" style="color: #EE6A6E;">Yes</h5>
+                                        <p style="color: #9E9E9E; font-size: 12px;">Surveillance
+                                            Score Generator</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <!------------------------------- box Left side 2 ------------------------------------>
+                    <div class="bg-white new-request-API-boxes rounded-3 shadow px-3 py-1 mt-3"
+                        style="position: relative;">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div style="width: 100%; padding: 3px;">
+                                <p class="text-center fw-bold">Key Industries</p>
+
+                                <div class="d-flex justify-content-evenly text-center">
+                                    <div class="px-2">
+                                        <img src="images/icons/marketing.png" alt="">
+                                        <p style="font-size: 12px;">Marketing</p>
+                                    </div>
+                                    <div class="px-2">
+                                        <img src="images/icons/software.png" alt="">
+                                        <p style="font-size: 12px;">Software</p>
+                                    </div>
+                                    <div class="px-2">
+                                        <img src="images/icons/automotive.png" alt="">
+                                        <p style="font-size: 12px;">Automotive</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <!------------------------------- box Left side 3 ------------------------------------>
+                    <div class="bg-white new-request-API-boxes rounded-3 shadow px-3 py-1 mt-3"
+                        style="position: relative;">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div style="width: 100%; padding: 3px;">
+                                <p class="text-center fw-bold">Headquarters</p>
+
+                                <div class="d-flex justify-content-evenly text-center">
+                                    <div class="">
+                                        <h6 class="fw-bold m-0">Lubbock, Texas</h6>
+                                        <p style="color: #9E9E9E; font-size: 12px;">Location of Main Operation</p>
+                                    </div>
+                                    <div class="">
+                                        <h6 class="fw-bold m-0">257</h6>
+                                        <p style="color: #9E9E9E; font-size: 12px;">Employee Count</p>
+                                    </div>
+                                    <div class="">
+                                        <h6 class="fw-bold m-0" style="color: #EE6A6E;">Yes</h6>
+                                        <p style="color: #9E9E9E; font-size: 12px;">Domestic?</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <!------------------------- box 2  ---------------------------------->
+                <div class="col-12 col-md-7 top-box-API-2">
+
+                    <!------------------------- box Right side 1  ---------------------------------->
+                    <div class="new-request-1-boxes rounded-5 shadow p-3"
+                        style="position: relative; background-color: #D6273B; color: white;">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div style="width: 100%; padding: 3px; color: white;">
+                                <h4 class="fw-bold">About Affinitiv</h4>
+                                <p class="text-center">Affinitiv Inc is the largest provider of fully integrated
+                                    data-driven solutions exclusively focused on the automotive
+                                    customer lifecycle. Through a consultative, customized approach, we help you enrich
+                                    the customer experience across
+                                    multiple channels—from the early stages of in-market customer activity to every
+                                    interaction in the service
+                                    lane—promoting repurchase and long-term loyalty.</p>
+                                <div class="text-end px-4">
+                                    <a href="" style="color: #D6D5EA; text-decoration: none;">View Website</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!------------------------- box Right side 2  ---------------------------------->
+
+                    <div class="text-center text-md-start">
+                        <button type="submit" class="btn rounded-5 fw-bold px-5 py-3 m-5"
+                            style="position: relative; background-color: #544CF9; color: white;">Get Your Data</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
