@@ -920,6 +920,26 @@ p {
     display: none;
 }
 
+/*-------------------------- new request if API available popup 1 -----------------------*/
+
+.white-popup2 {
+    width: 50%;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #707070;
+    /* opacity: 93%; */
+    top: 35%;
+    left: 30%;
+}
+
+.popup2 {
+    width: 60%;
+}
+
+.white-popup2 input[type='radio'] {
+    display: none;
+}
 
 
  /*------------------- tab view  ---------------*/
@@ -1040,6 +1060,17 @@ p {
     }
 
     .white-popup1 {
+        width: 80%;
+        position: sticky;
+        z-index: 10;
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 1px solid #707070;
+        /* opacity: 93%; */
+        top: 30%;
+        left: 10%;
+    }
+
+    .white-popup2 {
         width: 80%;
         position: sticky;
         z-index: 10;
@@ -1200,5 +1231,25 @@ p {
     }
     .popup1 {
         width: 80%;
+    }
+
+    .white-popup2 {
+        width: 80%;
+        position: sticky;
+        z-index: 10;
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 1px solid #707070;
+        /* opacity: 93%; */
+        top: 10%;
+        left: 10%;
+    }
+    .popup2 {
+        width: 80%;
+    }
+    .popup2 label{
+        font-size: 13px;
+    }
+    .popup1 label{
+        font-size: 13px;
     }
  }
