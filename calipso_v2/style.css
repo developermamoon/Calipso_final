@@ -50,7 +50,7 @@
     color: white;
 }
 
-input[type='password']{
+.login input[type='password']{
     color: black !important;
 }
 
@@ -58,7 +58,7 @@ input[type='password']{
     color: white;
 }
 
-input[type="password"]::-webkit-input-placeholder {
+.login input[type="password"]::-webkit-input-placeholder {
     color: black;
 }
 
@@ -79,6 +79,53 @@ input[type="password"]::-webkit-input-placeholder {
     color: #544CF9;
 }
 
+
+/*------------------------------------------------------- reset- enter key  */
+
+.reset-key{
+    width: 100%;
+}
+
+.reset-button-space{
+    width: 50%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.reset-key input[type='email'] {
+    background-color: #6827D6;
+    border: 0;
+    color: white;
+}
+
+.reset-key input[type='password'] {
+    color: black !important;
+}
+
+.reset-key input[type="email"]::-webkit-input-placeholder {
+    color: white;
+}
+
+.reset-key input[type="password"]::-webkit-input-placeholder {
+    color: black;
+}
+
+.reset-key input[type="email"]:focus {
+    color: white;
+    background-color: #6827D6;
+}
+
+
+.reset-key-buttons {
+    background-color: #6827D6 !important;
+    font-weight: 500 !important;
+}
+
+
+.reset-key-link {
+    text-decoration: none;
+    color: #544CF9;
+}
 
 /*---------------------------------------------------info entry page design  */
 
@@ -220,6 +267,10 @@ input[type="password"]::-webkit-input-placeholder {
 /*--------------------------------- Verify Password  --------------*/
 .verify-password2{
     width: 50%;
+}
+
+.verify-password2 input[type="password"]::-webkit-input-placeholder {
+    color: black;
 }
 
 
@@ -1141,6 +1192,17 @@ p {
         top: 30%;
         left: 10%;
     }
+
+    .reset-key {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .reset-button-space {
+        width: 70%;
+        /* border: 2px solid red; */
+        margin: 0 auto;
+    }
  }
 
 
@@ -1323,5 +1385,22 @@ p {
     }
     .popup1 label{
         font-size: 13px;
+    }
+
+    .reset-key {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .reset-button-space {
+        width: 100%;
+        /* border: 2px solid red; */
+        /* margin: 0 auto; */
+        /* display: block; */
+    }
+
+    .reset-key-buttons{
+        width: 100%;
+        /* display: block; */
     }
  }
