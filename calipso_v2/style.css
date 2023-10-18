@@ -104,10 +104,12 @@
 
 .reset-key input[type="email"]::-webkit-input-placeholder {
     color: white;
+    font-weight: 600;
 }
 
 .reset-key input[type="password"]::-webkit-input-placeholder {
-    color: black;
+    color: red;
+    font-weight: 600;
 }
 
 .reset-key input[type="email"]:focus {
