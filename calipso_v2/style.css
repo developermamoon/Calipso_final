@@ -125,6 +125,8 @@
 .reset-key-link {
     text-decoration: none;
     color: #544CF9;
+    display: block;
+    text-align: center;
 }
 
 /*---------------------------------------------------info entry page design  */
