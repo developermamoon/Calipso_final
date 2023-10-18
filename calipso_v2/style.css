@@ -217,6 +217,22 @@ input[type="password"]::-webkit-input-placeholder {
     box-shadow: 5px 5px 10px grey;
 }
 
+/*--------------------------------- Verify Password  --------------*/
+.verify-password2{
+    width: 50%;
+}
+
+
+.verify-password2 [type='password'] {
+    box-shadow: 5px 5px 10px grey;
+    font-weight: 500;
+    padding-left: 90px !important;
+}
+
+.verify-password2 button[type='submit'] {
+    box-shadow: 5px 5px 10px grey;
+}
+
 /*--------------------------------- step 1  --------------*/
 .middle-part-step1{
     padding: 30px 0;
@@ -979,6 +995,17 @@ p {
             width: 70%;
     }
 
+    .verify-password2 {
+        width: 70%;
+    }
+
+
+    .verify-password2 [type='password'] {
+        box-shadow: 5px 5px 10px grey;
+        font-weight: 500;
+        padding-left: 90px !important;
+    }
+
     .white-bg-1{
         height: 100%;
     }
@@ -1141,6 +1168,17 @@ p {
 
     .verify-password .random-button{
         font-size: 12px;
+    }
+
+    .verify-password2 {
+        width: 90%;
+    }
+
+
+    .verify-password2 [type='password'] {
+        box-shadow: 5px 5px 10px grey;
+        font-weight: 500;
+        padding-left: 90px ;
     }
 
 
